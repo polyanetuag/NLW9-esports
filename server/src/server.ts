@@ -35,7 +35,7 @@ app.get("/games/:id/ads", async (request, response) => {
       id: true,
       name: true,
       weekDays: true,
-      useVoiceChannel: true,  
+      useVoiceChannel: true,
       yearsPlaying: true,
       hourStart: true,
       hourEnd: true,
@@ -44,23 +44,36 @@ app.get("/games/:id/ads", async (request, response) => {
       gameId,
     },
     orderBy: {
-      createdAt: 'desc',
+      createdAt: "desc",
     },
   });
 
-  return response.json(ads.map(ad => {
-    return {
-      ...ad,
-      weekDays: ad.weekDays.split(',')
-    }
-  }));
+  return response.json(
+    ads.map((ad) => {
+      return {
+        ...ad,
+        weekDays: ad.weekDays.split(","),
+      };
+    })
+  );
 });
 
 //buscar discord pelo Id do anúncio
-app.get("/ads/:id/discord", (request, response) => {
-  // const adId = request.params.id
+app.get("/ads/:id/discord", async (request, response) => {
+  const adId = request.params.id;
 
-  return response.json([]);
+  const ad = await prisma.ad.findUniqueOrThrow({
+    select: {
+      discord: true,
+    },
+    where: {
+      id: adId,
+    },
+  });
+
+  return response.json({
+    discord: ad.discord,
+  });
 });
 
 app.listen(3333);
