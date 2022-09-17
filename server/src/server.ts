@@ -3,13 +3,21 @@ import { PrismaClient } from "@prisma/client";
 
 const app = express();
 const prisma = new PrismaClient({
-    log: ["query"],
+  log: ["query"],
 });
 
 //ROTAS
 //listagem de games
 app.get("/games", async (request, response) => {
-  const games = await prisma.game.findMany();
+  const games = await prisma.game.findMany({
+    include: {
+      _count: {
+        select: {
+          ads: true,
+        },
+      },
+    },
+  });
 
   return response.json(games);
 });
@@ -20,14 +28,32 @@ app.post("/ads", (request, response) => {
 });
 
 //listagem de anúncios por game
-app.get("/games/:id/ads", (request, response) => {
-  // const gameId = request.params.id
+app.get("/games/:id/ads", async (request, response) => {
+  const gameId = request.params.id;
+  const ads = await prisma.ad.findMany({
+    select: {
+      id: true,
+      name: true,
+      weekDays: true,
+      useVoiceChannel: true,  
+      yearsPlaying: true,
+      hourStart: true,
+      hourEnd: true,
+    },
+    where: {
+      gameId,
+    },
+    orderBy: {
+      createdAt: 'desc',
+    },
+  });
 
-  return response.json([
-    { id: 1, name: "Anúncio 1" },
-    { id: 2, name: "Anúncio 2" },
-    { id: 3, name: "Anúncio 3" },
-  ]);
+  return response.json(ads.map(ad => {
+    return {
+      ...ad,
+      weekDays: ad.weekDays.split(',')
+    }
+  }));
 });
 
 //buscar discord pelo Id do anúncio
