@@ -35,10 +35,10 @@ $ git clone https://github.com/polyanetuag/NLW9-esports.git
 $ cd web
 
 # Instalar as dependências
-$ yarn
+$ npm i
 
 # Iniciar o servidor
-$ yarn start
+$ npm run dev
 
 # O servidor será inicializado em <http://localhost:3000>
 ```
