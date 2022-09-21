@@ -4,7 +4,7 @@
 
 <h3 align="center"> NLW eSports
 
- [API](##-API-(Back-end)) | [WEB](##-WEB-(Front-end)) | [MOBILE](##-MOBILE-(App))
+ [API](##-API-(Back-end)) | [WEB](##-WEB-(Front-end)) 
  
 </h3>
 
