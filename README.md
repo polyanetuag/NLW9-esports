@@ -26,7 +26,7 @@ O projeto eSports consiste em uma plataforma de jogos.
 
 - ReactJs
 - Typescript
-- 
+- Prisma
 
 
 
