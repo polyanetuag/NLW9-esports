@@ -1,7 +1,4 @@
 <div align="center">
-  <img justify-content="center" width= '100' src="./src/Assets/dogs.svg" />
- 
-  <img justify-content="center" width= '800' src="./src/Assets/ezgif.com-gif-maker.gif" style="margin-top: 22px"/>
   <h1>eSports</h1>
 </div>
 
@@ -18,20 +15,18 @@
 
 O projeto eSports consiste em uma plataforma de jogos.
 
-
 ## 🚀 Tecnologias utilizadas:
 
 - ReactJS
 - Tailwind
 - Bibliotecas: Radix, Phosphor
 
-
 ## ⏱ Como executar
 
 ```bash
 # Clonar o repositório
 $ git clone https://github.com/polyanetuag/NLW9-esports.git
-# Entrar na pasta  
+# Entrar na pasta
 $ cd web
 
 # Instalar as dependências
@@ -43,10 +38,10 @@ $ npm run dev
 # O servidor será inicializado em <http://localhost:3000>
 ```
 
-
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT.
 
 ---
+
 Desenvolvido com 💜 por Polyane Tuag
