@@ -1,24 +1,16 @@
-<!-- <h1 align="center">
-    <img  width= '300'src=".\.github\logoProffy.svg">
-</h1> -->
-
 <h3 align="center"> NLW eSports
 
- [API](##-API-(Back-end)) | [WEB](##-WEB-(Front-end)) 
- 
+[API](<##-API-(Back-end)>) | [WEB](<##-WEB-(Front-end)>)
+
 </h3>
 
-
-<!-- 
 <h1 align="center">
-    <img src=".\.github\InterfaceAplicativo.png">
-</h1> -->
-
+    <img width= '800' src="../NLW9-esports/web/public/interface.png">
+</h1>
 
 ## 📚 Sobre
 
 O projeto eSports consiste em uma plataforma de jogos.
-
 
 ---
 
@@ -28,15 +20,14 @@ O projeto eSports consiste em uma plataforma de jogos.
 - Typescript
 - Prisma
 
-
-
 **ATENÇÃO❗** É necessário que já esteja instalado:
 
 - Node.js
-- Git 
+- Git
 - Gerenciador de pacotes (NPM ou Yarn).
 
 ---
+
 ## 📦 Como instalar e iniciar o projeto
 
 ### API (Back-end)
@@ -45,7 +36,7 @@ O projeto eSports consiste em uma plataforma de jogos.
 # Clonar o repositório
 $ git clone https://github.com/polyanetuag/NLW9-esports.git
 
-# Entrar na pasta server 
+# Entrar na pasta server
 $ cd server
 
 # Instalar as dependências
@@ -60,7 +51,7 @@ $ npm run dev
 
 ```bash
 
-# Entrar na pasta web 
+# Entrar na pasta web
 $ cd web
 
 # Instalar as dependências
@@ -71,13 +62,12 @@ $ npm run dev
 
 ```
 
-
 ---
 
 ### 📋 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-
 ---
+
 Desenvolvido com 💜 por Polyane Tuag
