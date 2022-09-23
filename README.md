@@ -5,7 +5,7 @@
 </h3>
 
 <h1 align="center">
-    <img width= '800' src="../NLW9-esports/web/public/interface.png">
+    <img width= '800' src="../NLW9-esports/web/public/interface2.gif">
 </h1>
 
 ## 📚 Sobre
