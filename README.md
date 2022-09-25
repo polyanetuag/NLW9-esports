@@ -39,7 +39,7 @@ $ git clone https://github.com/polyanetuag/NLW9-esports.git
 $ cd server
 
 # Instalar as dependências
-$ npm i
+$ npm install
 
 # Iniciar o servidor
 $ npm run dev
@@ -54,7 +54,7 @@ $ npm run dev
 $ cd web
 
 # Instalar as dependências
-$ npm i
+$ npm install
 
 # Iniciar a aplicação
 $ npm run dev
