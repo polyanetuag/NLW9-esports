@@ -1,11 +1,8 @@
-<h3 align="center"> NLW eSports
-
-[API](<##-API-(Back-end)>) | [WEB](<##-WEB-(Front-end)>)
-
-</h3>
+<h3 align="center"> NLW eSports</h3>
 
 <h1 align="center">
-    <img width= '800' src="../NLW9-esports/web/public/interface2.gif"> </h1>
+    <img width= '800' src="../NLW9-esports/web/public/interface2.gif"> 
+</h1>
 
 ## 📚 Sobre
 
