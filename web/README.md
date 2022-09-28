@@ -22,6 +22,7 @@ O projeto eSports consiste em uma plataforma de jogos.
 - Tailwind
 - Bibliotecas: Radix, Phosphor
 - Axios
+- PostCSS
 
 ## ⏱ Como executar
 
