@@ -21,6 +21,7 @@ O projeto eSports consiste em uma plataforma de jogos.
 - ReactJS
 - Tailwind
 - Bibliotecas: Radix, Phosphor
+- Axios
 
 ## ⏱ Como executar
 
