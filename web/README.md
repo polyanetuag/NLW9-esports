@@ -20,7 +20,7 @@ O projeto eSports consiste em uma plataforma de jogos.
 
 - ReactJS
 - Tailwind
-- Libs: Radix, Phosphor
+- Libs: Radix e Phosphor
 - Axios
 - PostCSS
 
