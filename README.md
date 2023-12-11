@@ -1,4 +1,4 @@
-<h3 align="center"> NLW eSports</h3>
+<h1 align="center"> NLW eSports 🎮</h1>
 
 <h1 align="center">
     <img width= '800' src="../NLW9-esports/web/public/interface2.gif"> 
