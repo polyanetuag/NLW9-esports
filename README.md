@@ -6,7 +6,7 @@
 
 ## 📚 Sobre
 
-O projeto eSports consiste em uma plataforma de jogos, onde poderá escolher os jogos disponíveis e encontrar novos jogadores dos seus games favoritos como também anúncios dentro da plataforma.
+O projeto eSports consiste em uma plataforma de jogos, em que poderá escolher os jogos disponíveis e encontrar novos jogadores dos seus games favoritos como também fazer anúncios dentro da plataforma.
 
 ---
 
