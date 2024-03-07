@@ -8,7 +8,7 @@
 
 O projeto **eSports** consiste em uma plataforma de jogos, em que você poderá jogar os jogos que estão disponíveis, como também encontrar novos jogadores para jogar seus games favoritos. 
 
-Possui também a possibilidade de fazer anúncios de jogos dentro da plataforma.
+Possui também a possibilidade de um espaço na plataforma para fazer anúncios de jogos.
 
 ---
 
