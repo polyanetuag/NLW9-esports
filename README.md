@@ -14,7 +14,7 @@ Há também a possibilidade de um espaço na plataforma para fazer anúncios par
 
 ## 🚀 Tecnologias Utilizadas
 
-- ReactJs
+- [ReactJs](https://react.dev/)
 - Typescript
 - Prisma
 
