@@ -16,7 +16,7 @@ Há também a possibilidade de um espaço na plataforma para fazer anúncios par
 
 - [ReactJs](https://react.dev/)
 - [Typescript](https://www.typescriptlang.org/)
-- Prisma
+- [Prisma](https://www.prisma.io/?via=start&gad_source=1)
 
 **ATENÇÃO❗** É necessário que já esteja instalado:
 
