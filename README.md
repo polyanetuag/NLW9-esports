@@ -21,7 +21,7 @@ Há também a possibilidade de um espaço na plataforma para fazer anúncios par
 **ATENÇÃO❗** É necessário que já esteja instalado:
 
 - [Node.js](https://nodejs.org/pt)
-- Git
+- [Git](https://git-scm.com/doc)
 - Gerenciador de pacotes (NPM ou Yarn).
 
 ---
