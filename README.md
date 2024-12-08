@@ -22,7 +22,7 @@ Há também na plataforma a possibilidade de um espaço para fazer anúncios par
 
 - [Node.js](https://nodejs.org/pt)
 - [Git](https://git-scm.com/doc)
-- Gerenciador de pacotes ([NPM](https://docs.npmjs.com/) ou Yarn).
+- Gerenciador de pacotes ([NPM](https://docs.npmjs.com/) ou [Yarn](https://yarnpkg.com/getting-started))
 
 ---
 
