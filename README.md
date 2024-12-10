@@ -10,6 +10,8 @@ O projeto ***eSports*** consiste em uma plataforma de jogos, em que você poder�
 
 Há também na plataforma a possibilidade de um espaço para fazer anúncios para jogos.
 
+Foi desenvolvido durante a semana NLW, realizada pela Rocketseat.
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
